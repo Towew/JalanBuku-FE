@@ -66,7 +66,7 @@ function AddBook() {
     formData.set("price", form.price);
     formData.set("desc", form.desc);
 
-    // Configuration
+    // Configuratio
     const config = {
       headers: {
         "Content-type": "multipart/form-data",
