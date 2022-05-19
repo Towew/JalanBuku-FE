@@ -1,0 +1,97 @@
+.btnLogin button {
+  width: 100px;
+  height: 30px;
+  background: none;
+  border: 2px solid #393939;
+  border-radius: 1px;
+  color: #393939;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.btnRegister button {
+  width: 100px;
+  height: 30px;
+  background-color: #393939;
+  border: none;
+  border-radius: 1px;
+  color: white;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.modalLogin {
+  top: 70px;
+}
+
+.modalLogin h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.modalRegister {
+  top: 70px;
+}
+
+.modalRegister h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.formGroup {
+  text-align: center;
+}
+
+.formGroup input {
+  background-color: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  border-radius: 5px;
+  height: 50px;
+  width: 90%;
+  padding: 10px;
+  margin: 15px auto 15px auto;
+}
+
+.modalLogin button {
+  background-color: #393939;
+  border-radius: 1px;
+  height: 50px;
+  color: white;
+  border: none;
+  width: 90%;
+}
+
+.modalLogin p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.modalLogin p span {
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modalRegister button {
+  background-color: #393939;
+  border-radius: 1px;
+  height: 50px;
+  color: white;
+  border: none;
+  width: 90%;
+}
+
+.modalRegister p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.modalRegister p span {
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}

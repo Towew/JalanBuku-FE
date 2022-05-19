@@ -1,0 +1,28 @@
+.navRightSide {
+  align-items: center;
+  margin-right: 70px;
+}
+
+.avatarBulet {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: relative;
+  left: 37px;
+}
+
+.dropItem span {
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.btnCart {
+  cursor: pointer;
+}
+
+.cartBadge {
+  position: relative;
+  right: 33px;
+  top: 9px;
+}

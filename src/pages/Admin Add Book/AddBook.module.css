@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Metrophobic&display=swap");
+
+.addBookContainer h1 {
+  margin-bottom: 30px;
+  font-family: "Vollkorn", serif;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.addBookContainer div input {
+  background-color: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  border-radius: 5px;
+  width: 95%;
+  margin: 10px auto 20px auto;
+  height: 50px;
+}
+
+.addBookContainer div textarea {
+  background-color: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  border-radius: 5px;
+  width: 95%;
+  margin: 10px auto 20px auto;
+  padding: 7px;
+  resize: none;
+}
+
+.addBookContainer div input::placeholder {
+  font-weight: 700;
+}
+
+.addBookContainer div textarea::placeholder {
+  font-weight: 700;
+}
+
+.uploadSection div:nth-of-type(1) {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.uploadSection div:nth-of-type(2) {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.uploadSection label {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadSection label div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  border-radius: 5px;
+}
+
+.uploadSection div:nth-of-type(2) img {
+  width: 60px;
+  height: 60px;
+}
+
+.addBookContainer .btnSection {
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+
+.addBookContainer .btnSection button {
+  width: 150px;
+  height: 50px;
+  background-color: #393939;
+  border-radius: 1px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBookContainer .btnSection button span {
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  margin-right: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Metrophobic&display=swap");
+
+.dtlBook h1 {
+  font-size: 40px;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.dtlBook h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #929292;
+  font-style: italic;
+  font-family: "Metrophobic", sans-serif;
+  margin-bottom: 50px;
+}
+
+.dtlBookProps {
+  margin-bottom: 30px;
+}
+
+.dtlBookProps h5 {
+  font-size: 16px;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 700;
+}
+
+.dtlBookProps p {
+  font-size: 14px;
+  color: #929292;
+  font-family: "Metrophobic", sans-serif;
+}
+
+.dtlBookProps:nth-of-type(3) h5 {
+  color: #d60000;
+}
+
+.dtlBookProps:nth-of-type(4) p {
+  color: #44b200;
+}

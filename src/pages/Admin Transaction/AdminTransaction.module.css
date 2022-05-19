@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Metrophobic&display=swap");
+
+.adminTrxContainer h1 {
+  font-family: "Vollkorn", serif;
+  font-size: 27px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.adminTrxContainer thead tr th {
+  text-align: center;
+  color: #ff0000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.adminTrxContainer tbody tr {
+  height: 73px;
+}
+
+.adminTrxContainer tbody tr:nth-of-type(even) {
+  background-color: #f1f1f1;
+}
+
+.adminTrxContainer tbody tr td {
+  font-weight: 500;
+}
+
+.adminTrxContainer tbody tr td:nth-of-type(4) {
+  color: #0acf83;
+}
+
+.adminTrxContainer tbody tr td:nth-of-type(5) {
+  color: #0acf83;
+}

@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Metrophobic&display=swap");
+
+.titleCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+  margin-top: 100px;
+}
+
+.titleCont p {
+  font-family: "Vollkorn", serif;
+}
+
+.titleCont p:nth-of-type(1) {
+  margin-bottom: 0;
+  font-size: 43px;
+}
+
+.titleCont p:nth-of-type(2) {
+  margin-bottom: 0;
+  font-size: 48px;
+}
+
+.promoProps h3 {
+  font-size: 40px;
+  font-family: "Luxurious Roman", cursive;
+  cursor: pointer;
+}
+
+.promoProps h6 {
+  font-size: 16px;
+  color: #929292;
+  font-style: italic;
+  font-family: "Metrophobic", sans-serif;
+}
+
+.promoProps h5 {
+  color: #44b300;
+}
+
+.promoProps button {
+  border: 1px solid #393939;
+  background-color: #393939;
+  width: 100%;
+  height: 45px;
+  margin: 25px 0px 25px 0px;
+}
+
+.promoProps button:active {
+  background-color: white;
+}
+
+.promoProps button span {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.promoProps button span:active {
+  color: #393939;
+}
+
+.promoProps p {
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.listBook img {
+  width: 200px;
+  height: 270px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.listBook h3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-family: "Luxurious Roman", cursive;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.listBook h3:hover {
+  cursor: pointer;
+}
+
+.listBook h6 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #929292;
+  font-style: italic;
+  font-family: "Metrophobic", sans-serif;
+}
+
+.listBook h5 {
+  color: #44b300;
+}
+
+.modalLogin {
+  top: 70px;
+}
+
+.modalLogin h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.modalRegister {
+  top: 70px;
+}
+
+.modalRegister h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.formGroup {
+  text-align: center;
+}
+
+.formGroup input {
+  background-color: rgba(210, 210, 210, 0.25);
+  border: 2px solid #bcbcbc;
+  border-radius: 5px;
+  height: 50px;
+  width: 90%;
+  padding: 10px;
+  margin: 15px auto 15px auto;
+}
+
+.modalLogin button {
+  background-color: #393939;
+  border-radius: 1px;
+  height: 50px;
+  color: white;
+  border: none;
+  width: 90%;
+}
+
+.modalLogin p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.modalLogin p span {
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modalRegister button {
+  background-color: #393939;
+  border-radius: 1px;
+  height: 50px;
+  color: white;
+  border: none;
+  width: 90%;
+}
+
+.modalRegister p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.modalRegister p span {
+  font-weight: 800;
+  text-decoration: underline;
+  cursor: pointer;
+}

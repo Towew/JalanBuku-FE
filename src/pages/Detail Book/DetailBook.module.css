@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Metrophobic&display=swap");
+
+.dtlBook h1 {
+  font-size: 40px;
+  font-family: "Luxurious Roman", cursive;
+}
+
+.dtlBook h6 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #929292;
+  font-style: italic;
+  font-family: "Metrophobic", sans-serif;
+  margin-bottom: 50px;
+}
+
+.dtlBookProps {
+  margin-bottom: 30px;
+}
+
+.dtlBookProps h5 {
+  font-size: 16px;
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 700;
+}
+
+.dtlBookProps p {
+  font-size: 14px;
+  color: #929292;
+  font-family: "Metrophobic", sans-serif;
+}
+
+.dtlBookProps:nth-of-type(3) h5 {
+  color: #d60000;
+}
+
+.dtlBookProps:nth-of-type(4) p {
+  color: #44b200;
+}
+
+.bookDesc h2 {
+  font-family: "Metrophobic", sans-serif;
+  margin-bottom: 20px;
+}
+
+.bookDesc p {
+  font-family: "Metrophobic", sans-serif;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.bookDescBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bookDescBtn button {
+  border: 1px solid #393939;
+  background-color: #393939;
+  width: 144px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookDescBtn button:active {
+  background-color: white;
+}
+
+.bookDescBtn button span {
+  color: white;
+  font-weight: 600;
+  font-family: "Metrophobic", sans-serif;
+  margin-right: 15px;
+}
+
+.bookDescBtn button span:active {
+  color: black;
+}
+
+.bookDescBtn button img {
+  width: 23.87px;
+  height: 22px;
+}
+
+.bookDescBtn a {
+  border: 1px solid #393939;
+  background-color: #393939;
+  width: 144px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookDescBtn a:active {
+  background-color: white;
+}
+
+.bookDescBtn a span {
+  color: white;
+  font-weight: 600;
+  font-family: "Metrophobic", sans-serif;
+  margin-right: 15px;
+}
+
+.bookDescBtn a span:active {
+  color: black;
+}
