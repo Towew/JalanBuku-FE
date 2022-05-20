@@ -279,7 +279,9 @@ function Homepage() {
                               textDecorationLine: "line-through",
                             }}
                           >
-                            {rupiahFormat.convert(item.price + item.price * 2)}
+                            {rupiahFormat.convert(
+                              item.price + (item.price * 35) / 100
+                            )}
                           </span>
                         </h5>
                         <button onClick={() => setAddCart(item.id)}>
