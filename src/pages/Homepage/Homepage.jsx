@@ -280,7 +280,8 @@ function Homepage() {
                             }}
                           >
                             {rupiahFormat.convert(
-                              item.price + (item.price * 35) / 100
+                              parseInt(item.price) +
+                                (parseInt(item.price) * 35) / 100
                             )}
                           </span>
                         </h5>
