@@ -56,8 +56,8 @@ function AddBook() {
     // Store data with FormData as object
     const formData = new FormData();
 
-    formData.set("bookPdf", form.bookPdf[0], form.bookPdf[0].name);
-    formData.set("bookImg", form.bookImg[0], form.bookImg[0].name);
+    formData.append("bookPdf", form.bookPdf[0], form.bookPdf[0].name);
+    formData.append("bookImg", form.bookImg[0], form.bookImg[0].name);
     formData.set("title", form.title);
     formData.set("year", form.year);
     formData.set("author", form.author);
