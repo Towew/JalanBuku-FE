@@ -159,7 +159,7 @@ function Cart() {
                       .map((item) => {
                         return item.total;
                       })
-                      .reduce((a, b) => a + b, 0)
+                      .reduce((a, b) => parseInt(a) + parseInt(b), parseInt(0))
                   )}
                 </p>
               </Col>
@@ -178,7 +178,7 @@ function Cart() {
                     .map((item) => {
                       return item.qty;
                     })
-                    .reduce((a, b) => a + b, 0)}
+                    .reduce((a, b) => parseInt(a) + parseInt(b), parseInt(0))}
                 </p>
               </Col>
             </Row>
@@ -198,7 +198,7 @@ function Cart() {
                       .map((item) => {
                         return item.total;
                       })
-                      .reduce((a, b) => a + b, 0)
+                      .reduce((a, b) => parseInt(a) + parseInt(b), parseInt(0))
                   )}
                 </p>
               </Col>
